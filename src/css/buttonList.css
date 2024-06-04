@@ -1,0 +1,26 @@
+.button_list{
+    display: flex;
+    /* overscroll-behavior-x: auto; */
+    overflow-x: scroll;
+    /* flex-wrap: nowrap; */
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.button_list_container{
+    display: flex;
+    width: 100vw;
+    border: 2px solid red;
+}
+
+.button_list::-webkit-scrollbar {
+    height: 0; /* Hide the scrollbar height */
+    width: 0;  /* Hide the scrollbar width */
+}
+@media screen and (min-width: 769px){
+   
+    .button_list_container{
+        width: 85vw;
+        margin:0 auto;
+    }
+}

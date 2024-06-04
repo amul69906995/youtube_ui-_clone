@@ -1,0 +1,11 @@
+.video_card{
+    width: 300px;
+    
+    margin:6px 0px;
+    margin-left: auto;
+    margin-right:auto;
+    border: 2px solid blue;
+}
+.thumbnail{
+    width:100%;
+}

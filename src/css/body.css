@@ -1,0 +1,12 @@
+.body{
+   
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+
+}
+@media (max-width:769px){
+.body{
+    margin:0;
+}
+}
